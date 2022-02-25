@@ -5,4 +5,8 @@ class Conjunto:
         self.__conjunto=conjunto
 
     def dar_promedio(self):
-        return None
+        #return None
+        if (len(self.__conjunto)==1):
+            return (self.__conjunto[0])
+        else:
+            return None
