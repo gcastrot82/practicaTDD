@@ -16,3 +16,10 @@ class TestConjunto(unittest.TestCase):
     def test_conjunto_dos_elementos(self):
         conjunto = Conjunto([5,7])
         self.assertEqual(conjunto.dar_promedio(),6)
+
+
+    def test_conjunto_n_elementos(self):
+        conjunto = Conjunto([2,4,8,9,10,15])
+        self.assertEqual(conjunto.dar_promedio(),(2+4+7+9+10+15)/6)
+
+    
